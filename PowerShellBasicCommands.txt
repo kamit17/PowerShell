@@ -1,0 +1,35 @@
+Tracert <Websitename> -- To ping a website and provide info about the route the datapackets are sent between your computer and webserver
+********************************************************************************************************
+
+Classic Console 
+To start classic console - cmd
+To exit - exit
+
+cmd /c --invoking old console command like help.
+eg: cmd /c HELP
+
+For mre information type HELP command name . Eg : cmd /c help vol
+********************************************************************************************************************************
+cmdlets
+
+Get-Command -commandType cmdlet
+It retrieves a list of all available cmdlets, whose names always consist of an action (verb) and something that is acted on (noun).
+
+
+If you're looking for a command for a certain task, you can first select the verb that best describes the task .
+
+If you know that you want to obtain something, the proper verb is "get." That already gives you the first part of the command name.
+eg: Get-Command -verb get
+
+
+********************************************************************************************************
+
+using Parameters
+Get-Help : shows you which parameters are supported  by any given cmdlet.
+
+Get-ChildItem : Lists the contents of the current sub-directory
+
+To get a list of the contents of another sub-directory, you can enter the sub-directory name after the cmdlet:
+Eg:Get-childitem C:\Windows 
+
+Get-Help Get-ChildItem -Full  : Gives  the comprehensive information .
