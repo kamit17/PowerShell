@@ -1,0 +1,1 @@
+Get-Process | Sort-Object CPU -descending | Select-Object ProcessName -first 10

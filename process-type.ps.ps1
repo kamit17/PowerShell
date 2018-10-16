@@ -1,0 +1,1 @@
+(Get-Process)[0]| Get-TypeData
